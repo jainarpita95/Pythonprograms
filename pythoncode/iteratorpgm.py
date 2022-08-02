@@ -1,0 +1,7 @@
+it_obj=iter([1,2,3,4])
+print(type(it_obj))
+print(next(it_obj))
+print(next(it_obj))
+print(next(it_obj))
+print(next(it_obj))
+print(next(it_obj))

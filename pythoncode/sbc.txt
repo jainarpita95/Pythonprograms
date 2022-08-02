@@ -1,0 +1,7 @@
+python
+javascript
+mysql
+oraclepython
+javascript
+mysql
+oracle

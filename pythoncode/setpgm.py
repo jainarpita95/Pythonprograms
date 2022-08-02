@@ -1,0 +1,33 @@
+s={1,2,3,4,5,5,5,6,6,6,7,7,7,8,9,}
+d={"color":"red","model":"gyu","year":"2020"}
+s1=set(d)
+print(s1)
+l1=list(d)
+print(l1)
+t1=tuple(d)
+print(t1)
+print(s)
+s.add(112)
+print(s)
+l=[1,2,3,4]
+se={10,20,30,40}
+t=[111,222,333,444]
+s2=set()
+s2.update(l,se,t)
+print(s2)
+s3=s.copy()
+print(id(s),id(s3))#address is not same
+print(s)
+#s.pop()
+#s.pop()
+#print(s)
+s.remove(5)
+#print(s)
+#s.remove(100)
+s.discard(100)
+s.discard(7)
+print(s)
+#s.clear()
+#print(s)
+#del s
+#print(s)

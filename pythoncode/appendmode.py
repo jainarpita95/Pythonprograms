@@ -1,0 +1,7 @@
+f=open("newfile.txt","a")
+f.write("xyz")
+f.close()
+f=open("newfile.txt","r")
+data=f.read()
+print(data)
+f.close()
